@@ -15,7 +15,7 @@ server.lastPlayderID = 0;
 
 server.listen(process.env.PORT || 3000), function(){
     console.log('Listening on '+ server.address().port);
-});
+};
 
 io.on('connection',function(socket){
 
